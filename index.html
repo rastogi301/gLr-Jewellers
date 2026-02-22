@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gLr Jewellers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="https://wa.me/+919905632301" 
+   class="whatsapp-float" 
+   target="_blank">
+   <i class="fab fa-whatsapp"></i>
+</a>
+<body>
+
+<nav>
+    <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSps31pKiKI5wy7r-mf_12apGYNsyuELcNXGw&s">
+        <h1>gLr.in</h1>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+<div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Designs</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-icons">
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2 class="reveal-text">
+    <span>gLr Jewellers</span>
+</h2>
+        <p>Pure Gold • Elegant Designs • Trusted Forever</p>
+    </div>
+</section>
+
+<section class="about-round" id="about">
+    <div class="about-circle">
+        <h2>About Us</h2>
+        <p>GLR Jewellers is known for purity and craftsmanship.</p>
+        <p>We design gold and diamond ornaments for special moments.</p>
+        <p>Every piece is crafted with perfection.</p>
+    </div>
+</section>
+<section class="why">
+    <h2>Why Choose gLr?</h2>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <i class="fas fa-certificate"></i>
+            <h3>BIS Certified Gold</h3>
+            <p>100% hallmarked jewellery ensuring purity and trust.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fas fa-gem"></i>
+            <h3>Premium Craftsmanship</h3>
+            <p>Expertly handcrafted designs with attention to detail.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Secure Purchase</h3>
+            <p>Safe transactions and reliable customer support.</p>
+        </div>
+
+    </div>
+</section>
+<section class="products" id="products">
+    <h2 class="design-title">Our Jewellery Designs</h2>
+    <p class="design-subtitle">Crafted with purity • Designed with elegance</p>
+
+    <div class="product-grid">
+
+        <div class="card">
+            <img src="https://shyamsundarco.com/images/online_jewellery/lightweight/lwnecklace/8/cr.jpg?v=15122025240">
+            <h3>Gold Necklace</h3>
+            <p class="price">₹85,000</p>
+            <button onclick="buyItem('Gold Necklace')">Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc48d6897/images/hi-res/510730VZA2A00_1.jpg">
+            <h3>Gold Bangles</h3>
+            <p class="price">₹70,000</p>
+            <button onclick="buyItem('Gold Bangles')">Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://parakkatjewels.com/cdn/shop/files/golden-ring-pgr3-041-parakkat-jewels-1.png?v=1755516154">
+            <h3>Gold Ring</h3>
+            <p class="price">₹19,000</p>
+            <button onclick="buyItem('Gold Ring')">Buy Now</button>
+        </div>
+   <div class="card">
+            <img src="https://www.kushals.com/cdn/shop/files/kundan-necklace-green-victorian-kundan-necklace-164014-1171426408.jpg?v=1749031513&width=1200">
+            <h3>Bridal Set</h3>
+            <p class="price">₹1,50,000</p>
+            <button onclick="buyItem('Bridal Set')">Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.squarespace-cdn.com/content/v1/623dd7670da7867c56db9a2c/1714540319719-ZM86JDQVTBQVRDOEIZM8/rolo-gold-chain-4mm-lola-company.png">
+            <h3>Gold Chain</h3>
+            <p class="price">₹45,000</p>
+            <button onclick="buyItem('Gold Chain')">Buy Now</button>
+        </div>
+
+<div class="card">
+            <img src="https://i.pinimg.com/736x/c7/ea/09/c7ea09dea9ca9ea2b4e8bf53f578af2c.jpg">
+            <h3>Silver Payal</h3>
+            <p class="price">₹25,000</p>
+            <button onclick="buyItem('Silver Payal')">Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="https://yellowchimes.com/cdn/shop/files/whhwqcabmv6ivwao2eqq.jpg?v=1750940241">
+            <h3>Braclet</h3>
+            <p class="price">₹65,000</p>
+            <button onclick="buyItem('Braclet')">Buy Now</button>
+        </div>
+         <div class="card">
+            <img src="https://aurajewels.s3.amazonaws.com/images/AuraJewels/ern251m">
+            <h3>Gold Earrings</h3>
+            <p class="price">₹70,000</p>
+            <button onclick="buyItem('Gold Earrings')">Buy Now</button>
+        </div>
+        
+    </div>
+</section>
+
+<div id="popup" class="popup">
+  <p id="popupText"></p>
+  <button onclick="closePopup()">OK</button>
+</div>
+
+<section class="feedback">
+    <h2>Customer Feedback</h2>
+    <p>We value your feedback</p>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Feedback" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: glrjewellers@gmail.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Location: Bihar Sharif, India</p>
+
+       <div class="social">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 gLr Jewellers. All Rights Reserved.</p>
+    <p>Made with ❤️ by Ankit Rastogi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
