@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shopping Cart | gLr Jewellers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="cart.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="index.html" class="logo">
+gLr Jewellers
+</a>
+
+<div>
+
+<button onclick="toggleDarkMode()" class="dark-btn">
+🌙
+</button>
+
+</div>
+
+</nav>
+
+<section class="cart-container">
+
+<h1>Your Shopping Cart</h1>
+
+<div id="cartItems">
+
+</div>
+
+<div class="cart-total">
+
+<h2>
+Total :
+<span id="totalPrice">
+₹0
+</span>
+</h2>
+
+<a href="index.html">
+<button class="continue-btn">
+Continue Shopping
+</button>
+</a>
+
+</div>
+
+</section>
+
+<script src="cart.js"></script>
+
+</body>
+</html>

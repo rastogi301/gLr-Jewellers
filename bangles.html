@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gold Bangles Collection | gLr Jewellers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="collection.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="index.html" class="logo">gLr Jewellers</a>
+
+<div class="nav-right">
+
+<input
+type="text"
+placeholder="Search Bangles..."
+class="search-box"
+id="searchInput"
+onkeyup="searchProducts()">
+
+<button class="dark-btn" onclick="toggleDarkMode()">
+🌙
+</button>
+
+<button class="cart-btn" onclick="location.href='cart.html'">
+🛒
+<span id="cartCount">0</span>
+</button>
+
+</div>
+
+</nav>
+
+<section class="bangles-banner">
+
+<div>
+<h1>Gold Bangles Collection</h1>
+<p>Traditional & Modern Bangles</p>
+</div>
+
+</section>
+
+<section class="products">
+
+<!-- Product 1 -->
+
+<div class="card">
+
+<img src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc48d6897/images/hi-res/510730VZA2A00_1.jpg">
+
+<h3>Classic Gold Bangles</h3>
+
+<p class="price">₹70,000</p>
+
+<p class="weight">
+22K Gold • 15 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Classic Gold Bangles',70000,'https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc48d6897/images/hi-res/510730VZA2A00_1.jpg')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 2 -->
+
+<div class="card">
+
+<img src="https://svtmjewels.com/cdn/shop/files/SV-107-0182-_2.jpg?v=1745834543">
+
+<h3>Designer Gold Bangles</h3>
+
+<p class="price">₹82,000</p>
+
+<p class="weight">
+22K Gold • 18 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Designer Gold Bangles',82000,'https://svtmjewels.com/cdn/shop/files/SV-107-0182-_2.jpg?v=1745834543')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 3 -->
+
+<div class="card">
+
+<img src="https://gehnashop.com/cdn/shop/files/16_55796978-8ccb-4595-be10-c89b988da83e.jpg?v=1775472773">
+
+<h3>Antique Gold Bangles</h3>
+
+<p class="price">₹95,000</p>
+
+<p class="weight">
+22K Gold • 20 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Antique Gold Bangles',95000,'https://gehnashop.com/cdn/shop/files/16_55796978-8ccb-4595-be10-c89b988da83e.jpg?v=1775472773')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 4 -->
+
+<div class="card">
+
+<img src="https://libasaa.com/cdn/shop/files/icle15340.jpg?v=1756898511">
+
+<h3>Stone Gold Bangles</h3>
+
+<p class="price">₹1,10,000</p>
+
+<p class="weight">
+22K Gold • 24 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Stone Gold Bangles',1,10,000,'https://libasaa.com/cdn/shop/files/icle15340.jpg?v=1756898511')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 5 -->
+
+<div class="card">
+
+<img src="https://krishnajewellers.com/cdn/shop/files/22kgoldbridalbangle.png?v=1761995909&width=1200">
+
+<h3>Bridal Gold Bangles</h3>
+
+<p class="price">₹1,35,000</p>
+
+<p class="weight">
+22K Gold • 28 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Bridal Gold Bangles',135000,'https://krishnajewellers.com/cdn/shop/files/22kgoldbridalbangle.png?v=1761995909&width=1200')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 gLr Jewellers
+
+</footer>
+
+<script src="collection.js"></script>
+
+</body>
+</html>

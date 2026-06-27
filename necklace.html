@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Necklace Collection | gLr Jewellers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="collection.css">
+</head>
+
+<body>
+
+<nav>
+
+<a href="index.html" class="logo">gLr Jewellers</a>
+
+<div class="nav-right">
+
+<input
+type="text"
+placeholder="Search Necklace..."
+class="search-box"
+id="searchInput"
+onkeyup="searchProducts()">
+
+<button class="dark-btn" onclick="toggleDarkMode()">
+🌙
+</button>
+
+<button class="cart-btn" onclick="location.href='cart.html'">
+🛒
+<span id="cartCount">0</span>
+</button>
+
+</div>
+
+</nav>
+
+<section class="necklace-banner">
+
+<div>
+<h1>Gold Necklace Collection</h1>
+<p>Exclusive handcrafted designs</p>
+</div>
+
+</section>
+
+<section class="products">
+
+<!-- Product 1 -->
+
+<div class="card">
+
+<img src="https://shyamsundarco.com/images/online_jewellery/lightweight/lwnecklace/8/cr.jpg?v=15122025240">
+
+<h3>Royal Gold Necklace</h3>
+
+<p class="price">₹85,000</p>
+
+<p class="weight">
+22K Gold • 18 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Royal Gold Necklace',85000,'https://shyamsundarco.com/images/online_jewellery/lightweight/lwnecklace/8/cr.jpg?v=15122025240')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 2 -->
+
+<div class="card">
+
+<img src="https://peachtassels.com/cdn/shop/files/TempelNecklaceSet2.jpg?v=1683263054&width=1100">
+
+<h3>Temple Necklace</h3>
+
+<p class="price">₹1,05,000</p>
+
+<p class="weight">
+22K Gold • 22 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Temple Necklace',105000,'https://peachtassels.com/cdn/shop/files/TempelNecklaceSet2.jpg?v=1683263054&width=1100')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 3 -->
+
+<div class="card">
+
+<img src="https://zhome.in/cdn/shop/files/WhatsApp_Image_2025-08-22_at_13.13.36_1.webp?v=1756649399">
+
+<h3>Bridal Necklace</h3>
+
+<p class="price">₹1,50,000</p>
+
+<p class="weight">
+22K Gold • 30 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Bridal Necklace',150000,'https://zhome.in/cdn/shop/files/WhatsApp_Image_2025-08-22_at_13.13.36_1.webp?v=1756649399')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 4 -->
+
+<div class="card">
+
+<img src="https://5.imimg.com/data5/SELLER/Default/2022/4/JX/UM/VM/58844038/img-20220420-173105.jpg">
+
+<h3>Turkish Necklace</h3>
+
+<p class="price">₹2,10,000</p>
+
+<p class="weight">
+18K Gold • 25 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Turkish Necklace',210000,'https://5.imimg.com/data5/SELLER/Default/2022/4/JX/UM/VM/58844038/img-20220420-173105.jpg')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 5 -->
+
+<div class="card">
+
+<img src="https://www.lookethnic.com/cdn/shop/products/LECOHR0218.JPG?v=1556957425">
+
+<h3>Long Haram</h3>
+
+<p class="price">₹95,000</p>
+
+<p class="weight">
+22K Gold • 20 gm
+</p>
+
+<div class="btn-group">
+
+<button onclick="addToCart('Long Haram',95000,'https://www.lookethnic.com/cdn/shop/products/LECOHR0218.JPG?v=1556957425')">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 gLr Jewellers
+
+</footer>
+
+<script src="collection.js"></script>
+
+</body>
+</html>

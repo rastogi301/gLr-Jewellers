@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+    color:#333;
+    transition:0.4s;
+}
+
+body.dark{
+    background:#1b1b1b;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:white;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+body.dark nav{
+    background:#2a2a2a;
+}
+
+.logo{
+    font-size:28px;
+    color:#d4af37;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.nav-right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.search-box{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    width:220px;
+}
+
+.dark-btn,
+.cart-btn{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#d4af37;
+    color:white;
+    font-weight:bold;
+}
+
+.necklace-banner{
+    height:300px;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://www.karpagamjewellers.com/wp-content/uploads/2023/07/Karpagam-Jewellers-banner.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.banner h1{
+    font-size:45px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+body.dark .card{
+    background:#2d2d2d;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:230px;
+    object-fit:contain;
+}
+
+.card h3{
+    margin:15px 0 8px;
+}
+
+.price{
+    color:#c99700;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.weight{
+    margin:8px 0;
+    color:#666;
+}
+
+body.dark .weight{
+    color:#ccc;
+}
+
+.btn-group{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    margin-top:15px;
+}
+
+button{
+    padding:10px 18px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    background:#d4af37;
+    color:white;
+    transition:.3s;
+}
+
+button:hover{
+    background:#b8860b;
+}
+
+footer{
+    padding:25px;
+    text-align:center;
+    background:#111;
+    color:white;
+}
+
+@media(max-width:768px){
+
+nav{
+    flex-direction:column;
+    gap:15px;
+}
+
+.search-box{
+    width:100%;
+}
+
+.banner h1{
+    font-size:30px;
+}
+
+.products{
+    padding:20px;
+}
+
+}
+.bangles-banner{
+    height:300px;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.bhimagold.com/admin/category/images/1729250850690-Bangles.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+.rings-banner{
+    height:300px;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://media.istockphoto.com/id/2177500447/photo/elegant-gold-ring-with-diamond-on-black-background.jpg?s=612x612&w=0&k=20&c=bjkB6oeWscBszpojjTAhMz4q7i4hvcC3tApP7J5R3fw=");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}

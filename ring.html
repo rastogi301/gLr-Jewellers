@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gold Rings | gLr Jewellers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="collection.css">
+
+</head>
+<body>
+
+<nav>
+
+<a href="index.html" class="logo">gLr Jewellers</a>
+
+<div class="nav-right">
+
+<input
+type="text"
+id="searchInput"
+class="search-box"
+placeholder="Search Rings..."
+onkeyup="searchProducts()">
+
+<button class="dark-btn" onclick="toggleDarkMode()">
+🌙
+</button>
+
+<button class="cart-btn" onclick="location.href='cart.html'">
+🛒 <span id="cartCount">0</span>
+</button>
+
+</div>
+
+</nav>
+
+<section class="rings-banner">
+<div>
+<h1>Gold Rings Collection</h1>
+<p>Premium handcrafted ring collection</p>
+</div>
+</section>
+
+<section class="products">
+
+<div class="card">
+
+<img src="https://parakkatjewels.com/cdn/shop/files/golden-ring-pgr3-041-parakkat-jewels-1.png?v=1755516154">
+
+<h3>Classic 22k Gold Ring</h3>
+
+<p class="price">₹19,000</p>
+
+<p class="weight">22K Gold • 5 gm</p>
+
+<div class="btn-group">
+<button onclick="addToCart('Classic 22k Gold Ring',19000,'https://parakkatjewels.com/cdn/shop/files/golden-ring-pgr3-041-parakkat-jewels-1.png?v=1755516154')">
+Add to Cart
+</button>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://smarsjewelry.com/cdn/shop/files/2250.3.jpg?v=1759574936&width=1946">
+
+<h3>Antique Ring</h3>
+
+<p class="price">₹42,000</p>
+
+<p class="weight">18K Gold • 4 gm</p>
+
+<div class="btn-group">
+<button onclick="addToCart('Antiue Ring',42000,'https://smarsjewelry.com/cdn/shop/files/2250.3.jpg?v=1759574936&width=1946')">
+Add to Cart
+</button>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://kinclimg1.bluestone.com/f_jpg,c_scale,w_828,q_80,b_rgb:f0f0f0/giproduct/BIDG0360R15_YAA18DIG4XXXXXXXX_ABCD00-PICS-00001-1024-85183.png">
+
+<h3>Wedding Ring</h3>
+
+<p class="price">₹28,000</p>
+
+<p class="weight">22K Gold • 6 gm</p>
+
+<div class="btn-group">
+<button onclick="addToCart('Wedding Ring',28000,'https://kinclimg1.bluestone.com/f_jpg,c_scale,w_828,q_80,b_rgb:f0f0f0/giproduct/BIDG0360R15_YAA18DIG4XXXXXXXX_ABCD00-PICS-00001-1024-85183.png')""
